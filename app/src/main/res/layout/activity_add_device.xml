@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".device.activity.AddDeviceActivity">
+
+    <EditText
+        android:id="@+id/et_ssid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="111dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="wifi名称" />
+
+    <EditText
+        android:id="@+id/et_pswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="173dp"
+        android:ems="10"
+        android:inputType="textVisiblePassword"
+        android:hint="wifi密码"
+        />
+
+    <Button
+        android:id="@+id/btn_ensure"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_ssid"
+        android:layout_centerVertical="true"
+        android:text="确定" />
+</RelativeLayout>

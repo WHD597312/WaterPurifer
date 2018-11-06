@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WaterPurifer</string>
+    <string name="title_activity_qrscaner">QRScanerActivity</string>
+</resources>
